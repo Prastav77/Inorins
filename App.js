@@ -18,7 +18,7 @@ const App = () => {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Search"
+        placeholder="Search Movie"
         onChangeText={handleChange}
       />
       {renderItem.length > 0 ? (
